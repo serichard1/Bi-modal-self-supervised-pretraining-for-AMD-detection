@@ -11,7 +11,6 @@ https://github.com/huggingface/pytorch-image-models/blob/main/timm/models/vision
 import torch
 import torch.nn as nn
 
-
 class PatchEmbed(nn.Module):
     """ 
     Split input volume into non-overlapping patches and directly embed them.
